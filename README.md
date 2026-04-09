@@ -1,136 +1,57 @@
-# Task Flow 4A
+# 🐾 Paw Care
 
 ## 📌 Overview
 
-Task Flow adalah sistem aplikasi berbasis web yang dirancang untuk membantu tim dalam mengelola tugas, memantau progres pekerjaan, dan meningkatkan koordinasi antar anggota tim.
+Paw Care adalah aplikasi berbasis web yang dirancang untuk membantu pengelolaan operasional pet shop dan layanan perawatan hewan. Sistem ini memudahkan pengelolaan produk, layanan, serta transaksi dalam satu platform yang terintegrasi.
 
-Aplikasi ini mengadopsi konsep **Kanban Board** untuk memvisualisasikan status tugas secara jelas dan terstruktur.
+## 🎯 Features
 
----
+* 🛒 Manajemen produk (makanan, aksesoris, dll)
+* 📦 Manajemen stok barang
+* 💳 Transaksi penjualan (Point of Sale)
+* 🐶 Layanan perawatan hewan (grooming, dll)
+* 👤 Manajemen data pelanggan
+* 📊 Monitoring aktivitas sederhana
 
-## 🎯 Objectives
+## 🛠️ Tech Stack
 
-* Membantu tim dalam mengorganisir tugas secara sistematis
-* Meningkatkan transparansi progres pekerjaan
-* Mempermudah pembagian tugas antar anggota
-* Mengurangi risiko keterlambatan pekerjaan
+* Frontend: Next.js + Tailwind CSS
+* Backend: Node.js + Express.js
+* Database: PostgreSQL + Prisma ORM
 
----
+## 🚀 Getting Started
 
-## 🚀 Features
+### 1. Clone Repository
 
-* User Authentication (Login & Register)
-* Project Management
-* Task Management (Create, Update, Delete)
-* Task Assignment to Team Members
-* Task Status (To Do, In Progress, Done)
-* Kanban Board Visualization
-* Progress Monitoring
+```
+git clone https://github.com/mshaffanjr/PawCare-4A.git
+```
 
----
+### 2. Setup Environment
 
-## 🧑‍💻 User Roles
+* Install dependencies
+* Setup database
+* Konfigurasi file environment
 
-### Admin
+### 3. Run Application
 
-* Mengelola user
-* Mengelola project
-* Mengatur keseluruhan sistem
+```
+npm start
+```
 
-### User
+atau jalankan sesuai teknologi yang digunakan
 
-* Membuat dan mengelola task
-* Mengupdate status task
-* Melihat progres pekerjaan
+## 🧪 Future Improvements
 
----
+* Integrasi pembayaran digital
+* Notifikasi jadwal layanan
+* Dashboard analitik
+* Tampilan mobile-friendly
 
-## 🏗️ System Workflow
+## 👥 Author
 
-1. User melakukan login ke sistem
-2. Membuat atau memilih project
-3. Menambahkan task ke dalam project
-4. Menentukan anggota yang bertanggung jawab
-5. Mengupdate status task sesuai progres
-6. Monitoring progres hingga project selesai
-
----
-
-## 🛠️ Technologies Used
-
-* Frontend: Blade Template Engine, Bootstrap
-* Backend: Laravel (PHP Framework)
-* Database: MySQL
-* Additional Tools: JavaScript, Chart.js
-
----
-
-## 📊 Methodology
-
-Pengembangan sistem menggunakan pendekatan:
-
-* **Agile Development**
-* **Kanban Method** untuk manajemen tugas
-
----
-
-## 📷 Screenshots
-
-
-
----
-
-## ⚙️ Installation
-
-1. Clone repository ini
-
-   ```bash
-   git clone https://github.com/mshaffanjr/TaskManagement-4A.git
-   ```
-2. Masuk ke folder project
-
-   ```bash
-   cd taskmanagement
-   ```
-3. Install dependencies (jika ada)
-
-   ```bash
-   npm install / composer install
-   ```
-4. Jalankan aplikasi
-
-   ```bash
-   npm run dev / php artisan serve
-   ```
-
----
-
-## 📚 Use Case
-
-Aplikasi ini dapat digunakan untuk:
-
-* Manajemen tugas tim proyek
-* Koordinasi kerja kelompok
-* Monitoring progres pekerjaan
-
----
-
-## ✨ Future Improvements
-
-* Notifikasi real-time
-* Deadline reminder
-* Activity log
-* Mobile version
-
----
-
-## 👨‍🎓 Author
-
-Muhammad Shaffan Jaizurahman
-Teknik Informatika - UHAMKA
-
----
+* Muhammad Shaffan Jaizurahman
 
 ## 📄 License
 
-This project is for academic purposes.
+Project ini dibuat untuk keperluan pembelajaran.
